@@ -8,5 +8,6 @@
   <description>commons</description>
   <modules>
   	<module>commons-id</module>
+  	<module>commons-utils</module>
   </modules>
 </project>
