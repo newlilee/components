@@ -1,6 +1,6 @@
 package com.commons.utils.test;
 
-import com.commons.utils.String2Array;
+import com.commons.util.String2Array;
 
 /**
  * @author chenlixin at 2016年5月10日 下午4:03:51
