@@ -17,6 +17,7 @@ public class TextUtils {
 				(separator)) {
 			return null;
 		}
+
 		List<String> separatorList = new ArrayList<>(16);
 		for (int idx = 0; idx < separator.length(); idx++) {
 			separatorList.add(String.valueOf(separator.charAt(idx)));
@@ -45,9 +46,6 @@ public class TextUtils {
 			retSen.add(retStr);
 			lastSenLength += sen.length() + 1;
 		}
-		if (retSen.size() > 0) {
-			return retSen.toArray(new String[sentences.length]);
-		}
-		return null;
+		return retSen.toArray(new String[sentences.length]);
 	}
 }
