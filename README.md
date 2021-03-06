@@ -1,2 +1,1 @@
-# id generate
-# simple session
+# id generate & simple session
