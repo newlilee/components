@@ -15,7 +15,7 @@
     </modules>
 
     <properties>
-        <jackson.version>2.12.2</jackson.version>
+        <jackson.version>2.13.1</jackson.version>
         <commons.lang.version>3.12.0</commons.lang.version>
     </properties>
     <dependencies>
@@ -40,4 +40,18 @@
             <version>${jackson.version}</version>
         </dependency>
     </dependencies>
+
+    <repositories>
+        <repository>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <id>nexus</id>
+            <name>nexus-central</name>
+            <url>https://maven.aliyun.com/repository/public</url>
+        </repository>
+    </repositories>
 </project>
