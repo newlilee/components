@@ -15,7 +15,7 @@
     </modules>
 
     <properties>
-        <jackson.version>2.13.1</jackson.version>
+        <jackson.version>2.13.2.1</jackson.version>
         <commons.lang.version>3.12.0</commons.lang.version>
     </properties>
     <dependencies>
